@@ -136,7 +136,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:biome_amazon_am</Layers>
+				<Layers>GH:states_am</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -146,7 +146,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:biome_amazon_am</Layers>
+				<Layers>GH:states_am</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -156,7 +156,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:states_am</Layers>
+				<Layers>GH:biome_amazon_am</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -166,7 +166,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:states_am</Layers>
+				<Layers>GH:biome_amazon_am</Layers>
 				<Styles></Styles>
 			</TileSet>
 		</VendorSpecificCapabilities>
@@ -193,26 +193,6 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
-				<Name>GH:biome_amazon_am</Name>
-				<Title>biome_amazon_am</Title>
-				<Abstract>GH:biome_amazon_am ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group:shp::https://github.com/asfixia/Mappia_Example_t/releases/download/Map_Download/biome_amazon_am.zip:notListing::maxZoom:8</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="-75.19817340111615" miny="-16.513030334292807" maxx="-42.86022313977726" maxy="6.61620717514007"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="-2496286.3992279395" miny="1802930.9545828123" maxx="833395.7447453075" maxy="4175124.39860457"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=biome_amazon_am"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
-			<Layer queryable="1" opaque="0">
 				<Name>GH:states_am</Name>
 				<Title>states_am</Title>
 				<Abstract>GH:states_am ABSTRACT</Abstract>
@@ -229,6 +209,26 @@
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=states_am"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:biome_amazon_am</Name>
+				<Title>biome_amazon_am</Title>
+				<Abstract>GH:biome_amazon_am ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸shp˸˸//github.com/asfixia/Mappia_Example_t/releases/download/Map_Download/biome_amazon_am.zip˸notListing˸˸maxZoom˸8</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="-75.19817340111615" miny="-16.513030334292807" maxx="-42.86022313977726" maxy="6.61620717514007"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="-2496286.3992279395" miny="1802930.9545828123" maxx="833395.7447453075" maxy="4175124.39860457"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=biome_amazon_am"></OnlineResource>
 					</LegendURL>
 				</Style>
 			</Layer>
