@@ -217,7 +217,7 @@
 				<Title>states_am</Title>
 				<Abstract>GH:states_am ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group:shp::https://github.com/asfixia/Mappia_Example_t/releases/download/Map_Download/states_am.zip:notListing::maxZoom:7</Keyword>
+					<Keyword>group:shp::/:notListing::maxZoom:8</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-75.03017807344904" miny="-18.174959888962963" maxx="-39.90552353020183" maxy="6.396165666036822"></LatLonBoundingBox>
