@@ -216,7 +216,11 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
+<<<<<<< HEAD
 				<Layers>GH:remaining_vegetation_am</Layers>
+=======
+				<Layers>GH:endemism</Layers>
+>>>>>>> 6b5def02a03b06473e69f2f585b99318dc2d0b5e
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -226,7 +230,11 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
+<<<<<<< HEAD
 				<Layers>GH:remaining_vegetation_am</Layers>
+=======
+				<Layers>GH:endemism</Layers>
+>>>>>>> 6b5def02a03b06473e69f2f585b99318dc2d0b5e
 				<Styles></Styles>
 			</TileSet>
 		</VendorSpecificCapabilities>
@@ -333,11 +341,19 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
+<<<<<<< HEAD
 				<Name>GH:remaining_vegetation_am</Name>
 				<Title>remaining_vegetation_am</Title>
 				<Abstract>GH:remaining_vegetation_am ABSTRACT</Abstract>
 				<KeywordList>
 					<Keyword>group˸tif˸˸˸//github.com/asfixia/Mappia_Example_t/releases/download/Map_Download/remaining_vegetation_am.zip˸notListing˸˸maxZoom˸10</Keyword>
+=======
+				<Name>GH:endemism</Name>
+				<Title>endemism</Title>
+				<Abstract>GH:endemism ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸tif˸˸˸//github.com/asfixia/Mappia_Example_t/releases/download/Map_Download/endemism.zip˸notListing˸˸maxZoom˸10</Keyword>
+>>>>>>> 6b5def02a03b06473e69f2f585b99318dc2d0b5e
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-75.19817340111615" miny="-16.513032135182556" maxx="-42.86199880506803" maxy="6.614341440751383"></LatLonBoundingBox>
@@ -348,7 +364,11 @@
 					<Abstract></Abstract>
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
+<<<<<<< HEAD
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=remaining_vegetation_am"></OnlineResource>
+=======
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=endemism"></OnlineResource>
+>>>>>>> 6b5def02a03b06473e69f2f585b99318dc2d0b5e
 					</LegendURL>
 				</Style>
 			</Layer>
